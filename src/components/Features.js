@@ -1,37 +1,43 @@
 import React from 'react';
 import './styles/Features.css';
 
+// Import all images correctly
+import atherLogos from './styles/assets/rizta.png.JPG';
+import ather450S from './styles/assets/450s.png.JPG';
+import ather450X from './styles/assets/450x.png.JPG';
+import ather450Apex from './styles/assets/450apex.png.JPG';
+
 const models = [
   {
     id: 1,
-    name: 'Ather Rizta',
+    name: 'Horus Y1H1',
     price: '₹1,09,999',
     flexpay: '₹2,199/month',
-    img: './assets/rizta.png',
+    img: atherLogos,  
     isNew: true,
   },
   {
     id: 2,
-    name: 'Ather 450S',
+    name: 'NEXZ N1Y1',
     price: '₹1,15,599',
     flexpay: '₹2,475/month',
-    img: './assets/450s.png',
+    img: ather450S,  
     isNew: false,
   },
   {
     id: 3,
-    name: 'Ather 450X',
+    name: 'Fenix Y1F1',
     price: '₹1,40,599',
     flexpay: '₹2,789/month',
-    img: './assets/450x.png',
+    img: ather450X,  
     isNew: false,
   },
   {
     id: 4,
-    name: 'Ather 450 Apex',
+    name: 'Zus Y1Z1',
     price: '₹1,49,999',
     flexpay: '₹3,439/month',
-    img: './assets/450apex.png',
+    img: ather450Apex,
     isNew: false,
   },
 ];
@@ -42,12 +48,12 @@ const Features = () => {
       <div className="features-header">
         <h2>All thrills. All electric.</h2>
         <p>
-          Presenting all-new electric scooters from Ather. Built to outperform both EV scooters and petrol scooters alike,
+          Presenting all-new electric scooters from Yazz EV. Built to outperform both EV scooters and petrol scooters alike,
           with all the style, smarts, and speed you need.
         </p>
       </div>
 
-      <h3>Pick your Ather</h3>
+      <h3>Pick your Yazz EV</h3>
 
       <div className="features-grid">
         {models.map((model) => (

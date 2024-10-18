@@ -5,22 +5,22 @@ const ProductCard = () => {
   const plans = [
     {
       id: 1,
-      title: 'Ather Battery Protect™',
+      title: 'Yazz EV Battery Protect™',
       description: 'Extend your battery warranty and ensure it stays protected for long-term use.',
     },
     {
       id: 2,
-      title: 'Ather Connect™',
+      title: 'Yazz EV Connect™',
       description: 'Unlock smarter connectivity features like theft alerts, ride stats, and more.',
     },
     {
       id: 3,
-      title: 'Ather Roadside Assistance',
+      title: 'Yazz EV Roadside Assistance',
       description: '24/7 coverage for roadside emergencies, breakdowns, and flat tires.',
     },
     {
       id: 4,
-      title: 'Ather Care',
+      title: 'Yazz EV Care',
       description: 'Comprehensive care to keep your scooter in top condition with regular maintenance.',
     },
   ];

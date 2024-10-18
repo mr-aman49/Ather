@@ -18,14 +18,10 @@ function App() {
         <div className="product-grid">
           <ProductCard 
             image="./assets/product1.png" 
-            name="Ather 450X" 
+            name="Yazz EV" 
             description="Best electric scooter in the market." 
           />
-          <ProductCard 
-            image="./assets/product2.png" 
-            name="Ather 340" 
-            description="Efficient, affordable electric vehicle." 
-          />
+          
         </div>
       </div>
       <About></About>

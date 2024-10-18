@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <h2>Wish to know more about Ather?</h2>
+        <h2>Wish to know more about Yazz EV?</h2>
         <p>
-          The best things about an Ather can’t be put in words, or captured in images.
+          The best things about an Yazz EV can’t be put in words, or captured in images.
           We’ll take up all your questions, just drop us your number. We’ll call you.
         </p>
         <button className="contact-button">Get in touch</button>
@@ -33,9 +33,9 @@ const Footer = () => {
           <div>
             <h4>Electric Scooters</h4>
             <ul>
-              <li>Ather 450 Plus</li>
-              <li>Ather 450X Apex</li>
-              <li>Ather 450X</li>
+              <li>Yazz EV 450 Plus</li>
+              <li>Yazz EV 450X Apex</li>
+              <li>Yazz EV 450X</li>
               <li>Book Test Ride</li>
               <li>Locate Dealers</li>
             </ul>
@@ -43,7 +43,7 @@ const Footer = () => {
           <div>
             <h4>Buy Electric Scooter</h4>
             <ul>
-              <li>Book Ather Scooter</li>
+              <li>Book Yazz EV Scooter</li>
               <li>Find a Dealer</li>
               <li>Pricing</li>
               <li>Charging</li>
@@ -56,8 +56,8 @@ const Footer = () => {
               <li>Ownership Cost Calculator</li>
               <li>Smart Helmets</li>
               <li>Accessories</li>
-              <li>Ather Merchandise</li>
-              <li>Ather Connect</li>
+              <li>Yazz EV Merchandise</li>
+              <li>Yazz EV Connect</li>
             </ul>
           </div>
           <div>
@@ -71,14 +71,14 @@ const Footer = () => {
         </div>
 
         <div className="footer-note">
-          <p>Beware of scammers in Ather's clothing. Don’t get tricked into frauds.</p>
+          <p>Beware of scammers in Yazz EV's clothing. Don’t get tricked into frauds.</p>
         </div>
       </div>
 
       <div className="footer-disclaimer">
         <p>
           Disclaimer: All specifications, prices, and features mentioned in this page are subject to change without prior notice.
-          Ather reserves the right to make changes as required without notice or obligation.
+          Yazz EV reserves the right to make changes as required without notice or obligation.
         </p>
       </div>
     </footer>
