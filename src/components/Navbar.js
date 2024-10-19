@@ -1,22 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
-import atherLogo from './styles/assets/yazzev.logo.jpg';
+import atherLogo from './styles/assets/yazzev.logo.jpg'; // Ensure the correct path to the image
 
 const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-container">
-        <a href="/" className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <img src={atherLogo} alt="Ather Logo" />
-        </a>
+        </Link>
         <nav className="navbar-links">
-          <a href="#rides">E-SCOOTERS</a>
-          <a href="#450series">BE A FAMILY</a>
-          <a href="#investors">EXPLORE</a>
-          <a href="#charging">MEDIA</a>
-          <a href="#helmets">ABOUT</a>
-          <a href="#shop">BLOG</a>
-          <a href="#locate">Locate Us</a>
+          <Link to="/#rides">E-SCOOTERS</Link>
+          <Link to="/#450series">BE A FAMILY</Link>
+          <Link to="/#investors">EXPLORE</Link>
+          <Link to="/testRide">Test Ride</Link>
+          <Link to="/aboutUs">ABOUT</Link>
+          <Link to="/blog">BLOG</Link>
+          
         </nav>
       </div>
     </header>

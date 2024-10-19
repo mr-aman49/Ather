@@ -1,6 +1,6 @@
 .product-card {
   padding: 50px 20px;
-  background-color: #000;
+  background-color: #6A6E6D;
   color: #fff;
   text-align: center;
 }
@@ -8,7 +8,7 @@
 .product-card-header h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: white;
+  color: rgb(9, 9, 9);
 }
 
 .product-card-grid {
@@ -18,7 +18,7 @@
 }
 
 .plan-card {
-  background-color: #111;
+  background-color: #6A6E6D;
   padding: 20px;
   border-radius: 10px;
   text-align: left;

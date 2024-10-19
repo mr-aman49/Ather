@@ -1,0 +1,139 @@
+/* BlogPage.css */
+
+/* Main blog page styling */
+.blog-page {
+    display: flex;
+    justify-content: center;
+    padding: 100px 20px 20px; /* Adding top padding to prevent overlap with the navbar */
+    background-color: #f8f8f8;
+    min-height: 100vh; /* Ensures full height layout */
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screen sizes */
+    gap: 20px;
+    max-width: 1200px; /* Keeps content centered on large screens */
+    justify-content: center;
+}
+
+/* Blog card styling */
+.blog-card {
+    background: white;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.blog-card:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Blog image styling */
+.blog-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Blog content styling */
+.blog-content {
+    padding: 20px;
+}
+
+.blog-content h2 {
+    font-size: 20px; /* Increased font size for better readability */
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-content p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    display: inline-block;
+    background-color: #f60;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: #e55d00; /* Change color on hover */
+}
+
+/* Navbar CSS (You can keep this as it is or make slight adjustments) */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-logo {
+    flex: 0;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    flex: 0.5;
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #373334;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-container {
+        flex-direction: column; /* Stack blog cards vertically on small screens */
+        gap: 30px;
+    }
+
+    .blog-card {
+        width: 100%; /* Full width for smaller screens */
+    }
+
+    .navbar {
+        padding: 15px; /* Slightly reduce navbar padding on small screens */
+    }
+
+    .navbar-logo img {
+        height: 30px; /* Reduce logo size on smaller screens */
+    }
+
+    .navbar-links a {
+        font-size: 13px; /* Slightly reduce font size for navbar links */
+    }
+}

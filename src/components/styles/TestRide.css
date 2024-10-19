@@ -1,0 +1,83 @@
+.timeride-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;  /* Increased padding for consistent space */
+    background-color: #f6f6f6;  /* Match with footer background */
+    height: 100vh;
+}
+
+/* Form section styling */
+.form-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff; /* Keep the form on a white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+}
+
+/* Image section */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+.image-section img {
+    width: 75%; /* Make the image responsive and not too big */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Headings and paragraphs */
+h2 {
+    font-size: 2rem;  /* Same as footer-top h2 */
+    margin-bottom: 20px;
+    color: #333; /* Text color aligned with footer */
+}
+
+p {
+    font-size: 1.2rem; /* Same as footer-top p */
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input rows */
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input and select fields */
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Button styling to match the footer */
+button {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #f60; /* Same color as footer button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55d00; /* Same hover effect as footer */
+}

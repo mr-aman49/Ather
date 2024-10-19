@@ -1,10 +1,10 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 98%;
+  width: 100%; /* Ensure full width */
   background: #fff;
   display: flex;
-  justify-content: space-between; /* Ensures space between the logo and the nav links */
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
@@ -15,11 +15,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Takes full width of the navbar */
+  width: 100%;
+  padding: 0 20px; /* Add some padding to prevent elements from going too far out */
 }
 
 .navbar-logo {
-  flex: 0; /* Aligns the logo to the left */
+  flex: 0;
 }
 
 .navbar-logo img {
@@ -28,14 +29,35 @@
 
 .navbar-links {
   display: flex;
-  justify-content: flex-end; /* Aligns the links to the right */
-  flex: 0.5; /* Takes up available space */
+  justify-content: flex-end;
+  flex: 0.5;
 }
 
 .navbar-links a {
   margin-left: 20px;
   text-decoration: none;
-  color: #333;
+  color: #373334;
   font-weight: bold;
   font-size: 14px;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth color and position transition */
+}
+
+.navbar-links a:hover {
+  color: red; /* Red color on hover */
+  transform: translateX(5px); /* Shift link to the right on hover */
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 0 10px; /* Reduce padding on smaller screens */
+  }
+
+  .navbar-links {
+    flex-wrap: wrap; /* Allow links to wrap if they overflow */
+  }
+
+  .navbar-links a {
+    margin-left: 10px; /* Reduce margin between links for smaller screens */
+  }
 }

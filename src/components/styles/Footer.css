@@ -1,113 +1,125 @@
-/* Footer.css */
-
+/* Footer container */
 .footer {
     background-color: #333;
     color: #fff;
     padding: 2rem;
-  }
-  
-  .footer-top {
     text-align: center;
-    padding: 2rem;
+}
+
+/* Top section of the footer */
+.footer-top {
     background-color: #111;
-  }
-  
-  .footer-top h2 {
+    padding: 2rem 0;
+}
+
+.footer-top h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .footer-top p {
+    color: #fff;
+}
+
+.footer-top p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-  }
-  
-  .contact-button {
+    color: #bbb;
+}
+
+.contact-button {
     padding: 0.8rem 1.5rem;
     background-color: #f60;
     border: none;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  .faq-section {
+}
+
+.contact-button:hover {
+    background-color: #e55d00;
+}
+
+/* FAQ section styling */
+.faq-section {
     padding: 3rem 0;
     background-color: #f6f6f6;
     color: #333;
-  }
-  
-  .faq-section h3 {
+}
+
+.faq-section h3 {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 2rem;
-  }
-  
-  .faq-list {
+}
+
+.faq-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style: none;
     padding: 0;
-  }
-  
-  .faq-list li {
+}
+
+.faq-list li {
     width: 45%;
     margin-bottom: 1rem;
     font-size: 1rem;
-  }
-  
-  .faq-list a {
+}
+
+.faq-list a {
     color: #0066cc;
     text-decoration: none;
-  }
-  
-  .footer-bottom {
+}
+
+.faq-list a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom section of the footer */
+.footer-bottom {
     background-color: #222;
     color: #bbb;
     padding: 2rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  
-  .footer-links {
+}
+
+.footer-links {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-  
-  .footer-links div {
+}
+
+.footer-links div {
     margin: 1rem;
-  }
-  
-  .footer-links h4 {
+}
+
+.footer-links h4 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-  }
-  
-  .footer-links ul {
+}
+
+.footer-links ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-links ul li {
+}
+
+.footer-links ul li {
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
-  }
-  
-  .footer-note {
+}
+
+.footer-note {
     text-align: center;
     margin-top: 2rem;
     font-size: 0.9rem;
-  }
-  
-  .footer-disclaimer {
+    color: #bbb;
+}
+
+.footer-disclaimer {
     background-color: #111;
     color: #777;
     padding: 1rem;
     text-align: center;
     font-size: 0.8rem;
     margin-top: 1rem;
-  }
-  
+}
